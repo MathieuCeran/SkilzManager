@@ -4,7 +4,7 @@ import { addPost, getPosts } from "../../actions/post.actions";
 import { DateParser, isEmpty } from "../utils/Utils";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Editor from "ckeditor5-custom-build/build/ckeditor";
+import Editor from "ckeditor5-custom-build/build/ckeditor"
 import { CKEditor } from "@ckeditor/ckeditor5-react";
 
 const NewPostForm = () => {
